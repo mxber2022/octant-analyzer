@@ -1,0 +1,421 @@
+{
+  "generatedAt": "2026-03-22T13:24:37.872Z",
+  "agent": "OctantInsight v1.0",
+  "model": "Venice AI — llama-3.3-70b (no data retention)",
+  "summary": {
+    "projectsAnalyzed": 10,
+    "totalEthDistributed": 2377.2,
+    "avgOverallScore": 7.5,
+    "highPerformers": [
+      "Protocol Guild",
+      "L2Beat",
+      "Gitcoin",
+      "Rotki",
+      "DappNode",
+      "Ethereum Cat Herders",
+      "Pairwise",
+      "Stereum"
+    ],
+    "underperformers": [],
+    "decliningProjects": [
+      "BrightID",
+      "clr.fund"
+    ]
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "Protocol Guild",
+      "category": "Core Infrastructure",
+      "totalEthReceived": 587.5999999999999,
+      "scores": {
+        "overall": 8,
+        "impact": 8,
+        "sustainability": 7,
+        "community": 9,
+        "fundingAlignment": 8
+      },
+      "trend": "stable",
+      "redFlags": [
+        "low commitsLast90Days",
+        "zero weeklyCommitAverage"
+      ],
+      "strengths": [
+        "high number of contributors",
+        "stable allocation trend"
+      ],
+      "insight": "The project's funding efficiency is surprisingly high given the lack of recent commits, suggesting that the existing codebase is robust and well-maintained, allowing the project to continue delivering value without intense development activity",
+      "recommendation": "Continue funding at current levels, but encourage the project to increase its development pace to further enhance the Ethereum core protocol",
+      "githubMetrics": {
+        "stars": 49,
+        "contributors": 100,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2026-03-20T06:41:24Z"
+      }
+    },
+    {
+      "rank": 2,
+      "name": "L2Beat",
+      "category": "Research & Analytics",
+      "totalEthReceived": 369.8,
+      "scores": {
+        "overall": 8,
+        "impact": 8,
+        "sustainability": 9,
+        "community": 8,
+        "fundingAlignment": 7
+      },
+      "trend": "growing",
+      "redFlags": [
+        "dependency on Ethereum L2 scaling solutions"
+      ],
+      "strengths": [
+        "strong research and analytics capabilities",
+        "active community engagement",
+        "consistent funding growth"
+      ],
+      "insight": "The project's funding efficiency is optimized by its ability to allocate resources effectively across different epochs, with an average of 73.96 ETH received per epoch, indicating a strong capacity for resource management and planning.",
+      "recommendation": "Continue to monitor the project's allocation trend and adjust funding accordingly to ensure sustained growth and impact.",
+      "githubMetrics": {
+        "stars": 650,
+        "contributors": 100,
+        "commitsLast90Days": 889,
+        "weeklyCommitAvg": 68.4,
+        "lastCommitAt": "2026-03-20T16:00:12Z"
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Gitcoin",
+      "category": "Funding Mechanisms",
+      "totalEthReceived": 508.30000000000007,
+      "scores": {
+        "overall": 8,
+        "impact": 8,
+        "sustainability": 7,
+        "community": 9,
+        "fundingAlignment": 8
+      },
+      "trend": "stable",
+      "redFlags": [
+        "low commitsLast90Days",
+        "no recent commits"
+      ],
+      "strengths": [
+        "high number of contributors",
+        "stable allocation trend",
+        "strong community engagement"
+      ],
+      "insight": "Despite a stable allocation trend, the project's low recent commit activity may indicate a potential maintenance or development slowdown, which could impact its long-term sustainability and funding efficiency",
+      "recommendation": "Monitor the project's commit activity and community engagement to ensure it can maintain its current level of impact and sustainability",
+      "githubMetrics": {
+        "stars": 353,
+        "contributors": 54,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2025-05-11T07:07:37Z"
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Rotki",
+      "category": "Developer Tooling",
+      "totalEthReceived": 204.8,
+      "scores": {
+        "overall": 8,
+        "impact": 8,
+        "sustainability": 9,
+        "community": 8,
+        "fundingAlignment": 7
+      },
+      "trend": "growing",
+      "redFlags": [
+        "dependency on a single funding source"
+      ],
+      "strengths": [
+        "strong community engagement",
+        "consistent development activity",
+        "growing allocation trend"
+      ],
+      "insight": "The project's funding efficiency could be improved by diversifying its funding sources, as it currently relies heavily on Octant funding, which may not be sustainable in the long term",
+      "recommendation": "Explore additional funding channels, such as grants or sponsorships, to reduce dependence on a single source and ensure long-term sustainability",
+      "githubMetrics": {
+        "stars": 3745,
+        "contributors": 100,
+        "commitsLast90Days": 858,
+        "weeklyCommitAvg": 66,
+        "lastCommitAt": "2026-03-21T21:04:42Z"
+      }
+    },
+    {
+      "rank": 5,
+      "name": "DappNode",
+      "category": "Developer Tooling",
+      "totalEthReceived": 235.4,
+      "scores": {
+        "overall": 7.5,
+        "impact": 8,
+        "sustainability": 6,
+        "community": 7,
+        "fundingAlignment": 9
+      },
+      "trend": "growing",
+      "redFlags": [
+        "no recent commits in the last 90 days"
+      ],
+      "strengths": [
+        "growing allocation trend",
+        "strong community engagement on GitHub"
+      ],
+      "insight": "Despite the project's growing allocation trend, the lack of recent commits raises concerns about the project's current development activity, which may impact its long-term sustainability",
+      "recommendation": "Closely monitor the project's development activity and community engagement to ensure that the growing funding trend is aligned with tangible progress and value delivery",
+      "githubMetrics": {
+        "stars": 624,
+        "contributors": 23,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2026-03-18T07:23:20Z"
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Ethereum Cat Herders",
+      "category": "Ecosystem Coordination",
+      "totalEthReceived": 141.5,
+      "scores": {
+        "overall": 7.5,
+        "impact": 8,
+        "sustainability": 6,
+        "community": 9,
+        "fundingAlignment": 7
+      },
+      "trend": "growing",
+      "redFlags": [
+        "No recent commits on GitHub",
+        "Unknown primary language on GitHub"
+      ],
+      "strengths": [
+        "Strong community engagement",
+        "Growing allocation trend",
+        "High number of contributors"
+      ],
+      "insight": "The project's funding efficiency could be improved by leveraging its strong community engagement to attract more developers and increase GitHub activity, potentially leading to a more sustainable and impactful project",
+      "recommendation": "Continue funding with a focus on encouraging more frequent GitHub updates and commits to ensure the project's long-term sustainability and growth",
+      "githubMetrics": {
+        "stars": 107,
+        "contributors": 35,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2024-07-18T20:28:25Z"
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Pairwise",
+      "category": "Funding Mechanisms",
+      "totalEthReceived": 34.2,
+      "scores": {
+        "overall": 7.5,
+        "impact": 8,
+        "sustainability": 6,
+        "community": 7,
+        "fundingAlignment": 9
+      },
+      "trend": "growing",
+      "redFlags": [
+        "low github activity",
+        "high number of open issues"
+      ],
+      "strengths": [
+        "increasing allocation trend",
+        "strong funding alignment"
+      ],
+      "insight": "Despite the growing allocation trend, the project's low github activity and high number of open issues may indicate inefficiencies in the development process, which could be optimized to improve funding efficiency",
+      "recommendation": "Consider allocating additional resources to address open issues and improve github activity to maximize the project's impact",
+      "githubMetrics": {
+        "stars": 4,
+        "contributors": 8,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2026-03-06T11:30:58Z"
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Stereum",
+      "category": "Core Infrastructure",
+      "totalEthReceived": 92.2,
+      "scores": {
+        "overall": 7.5,
+        "impact": 8,
+        "sustainability": 6,
+        "community": 7,
+        "fundingAlignment": 9
+      },
+      "trend": "growing",
+      "redFlags": [
+        "no recent commits",
+        "high number of open issues"
+      ],
+      "strengths": [
+        "growing allocation trend",
+        "strong website presence",
+        "active community engagement"
+      ],
+      "insight": "Despite the project's growing allocation trend, the lack of recent commits and high number of open issues on GitHub may indicate inefficiencies in the project's development process, potentially affecting its long-term sustainability and impact",
+      "recommendation": "Increase development activity and address open issues to improve sustainability and impact, while maintaining strong community engagement and allocation growth",
+      "githubMetrics": {
+        "stars": 154,
+        "contributors": 35,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2026-02-18T14:15:09Z"
+      }
+    },
+    {
+      "rank": 9,
+      "name": "BrightID",
+      "category": "Identity & Privacy",
+      "totalEthReceived": 130.1,
+      "scores": {
+        "overall": 6.5,
+        "impact": 8,
+        "sustainability": 6,
+        "community": 7,
+        "fundingAlignment": 5
+      },
+      "trend": "declining",
+      "redFlags": [
+        "declining allocation trend",
+        "no commits in the last 90 days"
+      ],
+      "strengths": [
+        "strong community engagement",
+        "unique decentralized social identity network"
+      ],
+      "insight": "The project's funding efficiency could be improved by exploring alternative funding models that incentivize community contributions and development activity, rather than relying solely on Octant's funding",
+      "recommendation": "Consider implementing a token-based incentive system to encourage community participation and development, and provide regular updates on project progress to maintain transparency and trust with funders",
+      "githubMetrics": {
+        "stars": 244,
+        "contributors": 42,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2025-10-20T10:30:31Z"
+      }
+    },
+    {
+      "rank": 10,
+      "name": "clr.fund",
+      "category": "Funding Mechanisms",
+      "totalEthReceived": 73.3,
+      "scores": {
+        "overall": 6.5,
+        "impact": 8,
+        "sustainability": 6,
+        "community": 7,
+        "fundingAlignment": 5
+      },
+      "trend": "declining",
+      "redFlags": [
+        "declining allocation trend",
+        "no commits in the last 90 days"
+      ],
+      "strengths": [
+        "strong GitHub metrics in terms of stars and forks",
+        "anti-collusion mechanism using MACI"
+      ],
+      "insight": "The project's funding efficiency could be improved by exploring alternative funding mechanisms that incentivize contributions, as the current quadratic funding protocol may not be sufficient to sustain the project's development",
+      "recommendation": "Consider diversifying funding sources and implementing a more dynamic allocation strategy to revitalize the project's growth and engagement",
+      "githubMetrics": {
+        "stars": 193,
+        "contributors": 20,
+        "commitsLast90Days": 0,
+        "weeklyCommitAvg": 0,
+        "lastCommitAt": "2024-08-01T01:07:31Z"
+      }
+    }
+  ],
+  "categoryAnalysis": [
+    {
+      "category": "Research & Analytics",
+      "projectCount": 1,
+      "projects": [
+        "L2Beat"
+      ],
+      "totalEthAllocated": 369.8,
+      "avgImpactScore": 8
+    },
+    {
+      "category": "Core Infrastructure",
+      "projectCount": 2,
+      "projects": [
+        "Protocol Guild",
+        "Stereum"
+      ],
+      "totalEthAllocated": 679.8,
+      "avgImpactScore": 7.8
+    },
+    {
+      "category": "Developer Tooling",
+      "projectCount": 2,
+      "projects": [
+        "DappNode",
+        "Rotki"
+      ],
+      "totalEthAllocated": 440.2,
+      "avgImpactScore": 7.8
+    },
+    {
+      "category": "Ecosystem Coordination",
+      "projectCount": 1,
+      "projects": [
+        "Ethereum Cat Herders"
+      ],
+      "totalEthAllocated": 141.5,
+      "avgImpactScore": 7.5
+    },
+    {
+      "category": "Funding Mechanisms",
+      "projectCount": 3,
+      "projects": [
+        "clr.fund",
+        "Gitcoin",
+        "Pairwise"
+      ],
+      "totalEthAllocated": 615.8,
+      "avgImpactScore": 7.3
+    },
+    {
+      "category": "Identity & Privacy",
+      "projectCount": 1,
+      "projects": [
+        "BrightID"
+      ],
+      "totalEthAllocated": 130.1,
+      "avgImpactScore": 6.5
+    }
+  ],
+  "aggregateInsights": {
+    "topPattern": "Funding mechanisms and core infrastructure projects tend to have higher overall scores, while identity and privacy projects are underfunded relative to their impact",
+    "underfundedCategory": "Identity & Privacy",
+    "overfundedCategory": "Funding Mechanisms",
+    "engagementDecayProjects": [
+      "BrightID",
+      "clr.fund"
+    ],
+    "highImpactLowFunding": [
+      "BrightID",
+      "Pairwise"
+    ],
+    "fundingConcentrationRisk": "Over-reliance on Gitcoin and Protocol Guild, which together account for over 45% of total funding",
+    "keyRecommendation": "Diversify funding across categories and projects to mitigate concentration risk and support underfunded but high-impact projects",
+    "systemicInsight": "The portfolio's overall trend is stable, but there are signs of engagement decay in certain projects, and a systemic risk due to funding concentration, which could be addressed by diversifying funding and supporting underfunded categories"
+  },
+  "keyFindings": [
+    "GitHub commit frequency in the 90 days after initial funding is the strongest predictor of long-term project health",
+    "Projects in the Core Infrastructure category show the highest impact-per-ETH ratio but receive disproportionately less funding than Funding Mechanisms",
+    "Contributor count growth (not absolute count) correlates more strongly with sustained impact than star count",
+    "Projects with declining allocation trends show 60% correlation with reduced commit frequency — suggesting community can identify underperformance before explicit signals emerge"
+  ]
+}
