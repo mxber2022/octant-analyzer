@@ -1,0 +1,96 @@
+{
+  "name": "OctantInsight",
+  "version": "1.0.0",
+  "type": "PublicGoodsAnalysisAgent",
+  "description": "Autonomous agent that collects, analyzes, and designs evaluation mechanisms for Octant-funded public goods projects — surfacing patterns and insights that humans cannot extract at scale.",
+  "capabilities": [
+    "github-metrics-collection",
+    "octant-allocation-data-aggregation",
+    "funding-efficiency-analysis",
+    "cross-project-pattern-detection",
+    "private-ai-reasoning",
+    "impact-scoring",
+    "portfolio-ranking",
+    "evaluation-mechanism-design",
+    "allocation-signal-generation"
+  ],
+  "model": {
+    "provider": "venice-ai",
+    "model": "llama-3.3-70b",
+    "privacy": "no-data-retention",
+    "purpose": "Private semantic analysis of qualitative project data that quantitative metrics cannot capture"
+  },
+  "dataSources": [
+    {
+      "name": "GitHub API",
+      "type": "public-api",
+      "data": "commit frequency, contributor count, stars, forks, weekly activity trends",
+      "auth": "optional token for higher rate limits"
+    },
+    {
+      "name": "Octant Allocation Records",
+      "type": "on-chain + curated",
+      "data": "ETH received per epoch, participation history across epochs 1-5",
+      "contracts": ["0x879133Fd79b7F48CE1c368b0fCA9ea168eaF117c"]
+    }
+  ],
+  "dataCollectionOutputs": [
+    "normalized per-project GitHub metrics (stars, forks, commits/90d, contributor count, weekly avg)",
+    "epoch-by-epoch ETH allocation history",
+    "trend direction per project (growing/stable/declining)",
+    "structured portfolio dataset ready for downstream analysis"
+  ],
+  "analysisOutputs": [
+    "per-project impact score (1-10)",
+    "sustainability score (1-10)",
+    "community health score (1-10)",
+    "funding alignment score (1-10)",
+    "trend classification (growing/stable/declining)",
+    "red flags and strengths",
+    "non-obvious per-project insight",
+    "portfolio-level aggregate patterns",
+    "category efficiency rankings",
+    "funding recommendations for future epochs"
+  ],
+  "evaluationMechanism": {
+    "description": "A reusable, transparent scoring framework designed for consistent project evaluation across Octant epochs",
+    "dimensions": [
+      {
+        "name": "Impact",
+        "weight": 0.35,
+        "measures": "Value delivered per ETH received",
+        "signals": ["commit velocity", "contributor growth", "downstream usage indicators"]
+      },
+      {
+        "name": "Sustainability",
+        "weight": 0.25,
+        "measures": "Long-term project health trajectory",
+        "signals": ["trend direction", "funding continuity", "team size stability"]
+      },
+      {
+        "name": "Community",
+        "weight": 0.20,
+        "measures": "Genuine engagement depth",
+        "signals": ["stars-to-commits ratio", "issue activity", "contributor retention"]
+      },
+      {
+        "name": "FundingAlignment",
+        "weight": 0.20,
+        "measures": "Whether current funding matches impact delivered",
+        "signals": ["impact score vs ETH received ratio", "category benchmarks"]
+      }
+    ],
+    "allocationSignals": {
+      "increase": "score >= 7 AND trend = growing",
+      "maintain": "score 5-6 AND trend = stable",
+      "review": "score < 5 OR trend = declining"
+    },
+    "leadingIndicator": "commit frequency at 90 days post-funding is the strongest predictor of long-term project health"
+  },
+  "whyVeniceMatters": "Funding allocation data is sensitive. Which projects are underperforming, which allocators vote together, which categories are being gamed — these are signals that shouldn't be exposed publicly during analysis. Venice's no-data-retention inference ensures the reasoning stays private while the structured output is fully shareable.",
+  "tracks": [
+    "Agents for Public Goods Data Analysis for Project Evaluation — Octant",
+    "Agents for Public Goods Data Collection for Project Evaluation — Octant",
+    "Mechanism Design for Public Goods Evaluation — Octant"
+  ]
+}
