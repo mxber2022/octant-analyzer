@@ -1,0 +1,131 @@
+{
+  "logs": [
+    {
+      "timestamp": "2026-03-22T13:22:55.705Z",
+      "step": "AGENT_START",
+      "data": {
+        "projectCount": 10,
+        "model": "llama-3.3-70b (Venice AI)"
+      }
+    },
+    {
+      "timestamp": "2026-03-22T13:22:55.706Z",
+      "step": "GITHUB_FETCH",
+      "project": "Protocol Guild"
+    },
+    {
+      "timestamp": "2026-03-22T13:22:58.637Z",
+      "step": "GITHUB_FETCH",
+      "project": "L2Beat"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:00.888Z",
+      "step": "GITHUB_FETCH",
+      "project": "DappNode"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:02.882Z",
+      "step": "GITHUB_FETCH",
+      "project": "BrightID"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:04.921Z",
+      "step": "GITHUB_FETCH",
+      "project": "Ethereum Cat Herders"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:06.952Z",
+      "step": "GITHUB_FETCH",
+      "project": "clr.fund"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:09.076Z",
+      "step": "GITHUB_FETCH",
+      "project": "Gitcoin"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:11.198Z",
+      "step": "GITHUB_FETCH",
+      "project": "Rotki"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:13.726Z",
+      "step": "GITHUB_FETCH",
+      "project": "Pairwise"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:15.769Z",
+      "step": "GITHUB_FETCH",
+      "project": "Stereum"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:17.890Z",
+      "step": "VENICE_ANALYZE",
+      "project": "Protocol Guild"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:24.264Z",
+      "step": "VENICE_ANALYZE",
+      "project": "L2Beat"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:30.270Z",
+      "step": "VENICE_ANALYZE",
+      "project": "DappNode"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:35.916Z",
+      "step": "VENICE_ANALYZE",
+      "project": "BrightID"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:42.037Z",
+      "step": "VENICE_ANALYZE",
+      "project": "Ethereum Cat Herders"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:49.215Z",
+      "step": "VENICE_ANALYZE",
+      "project": "clr.fund"
+    },
+    {
+      "timestamp": "2026-03-22T13:23:55.664Z",
+      "step": "VENICE_ANALYZE",
+      "project": "Gitcoin"
+    },
+    {
+      "timestamp": "2026-03-22T13:24:01.802Z",
+      "step": "VENICE_ANALYZE",
+      "project": "Rotki"
+    },
+    {
+      "timestamp": "2026-03-22T13:24:08.833Z",
+      "step": "VENICE_ANALYZE",
+      "project": "Pairwise"
+    },
+    {
+      "timestamp": "2026-03-22T13:24:22.796Z",
+      "step": "VENICE_ANALYZE",
+      "project": "Stereum"
+    },
+    {
+      "timestamp": "2026-03-22T13:24:29.457Z",
+      "step": "AGGREGATE_ANALYSIS",
+      "data": {
+        "projectsAnalyzed": 10
+      }
+    },
+    {
+      "timestamp": "2026-03-22T13:24:37.873Z",
+      "step": "REPORT_GENERATED",
+      "data": {
+        "file": "analysis_report.json",
+        "projectsRanked": 10
+      }
+    },
+    {
+      "timestamp": "2026-03-22T13:24:37.874Z",
+      "step": "AGENT_COMPLETE"
+    }
+  ]
+}
