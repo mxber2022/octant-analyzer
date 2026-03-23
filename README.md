@@ -143,10 +143,7 @@ Roadmap: [`docs/roadmap/v1-roadmap.md`](docs/roadmap/v1-roadmap.md)
 
 ## Team
 
-| Handle | Role |
-|--------|------|
-| **[@mxber2022](https://github.com/mxber2022)** (Max) | Agent code, pipeline architecture, Venice integration |
-| **0xJitsu** | Evaluation methodology, submission strategy, competitive analysis, documentation |
+**[@mxber2022](https://github.com/mxber2022)** · **[@0xjitsu](https://github.com/0xjitsu)**
 
 ---
 
