@@ -8,9 +8,9 @@
 
 ---
 
-## What Agents Can Extract That Humans Cannot Scale
+## What This Agent Sees That Humans Cannot
 
-Octant's Epoch 5 allocated funding to dozens of projects. A human reviewer can read each project's proposal, check their GitHub, and form an opinion. They cannot:
+A human reviewer reads a proposal, checks a GitHub repo, forms an opinion. One project at a time. Across a portfolio of 10+ projects, they cannot:
 
 - Compare commit velocity trajectories across 10+ projects simultaneously
 - Detect that funding concentration in two projects represents 45% of total allocation

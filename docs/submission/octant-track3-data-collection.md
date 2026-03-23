@@ -8,17 +8,17 @@
 
 ---
 
-## Why Data Collection Is the Foundation
+## The Problem With Current Data Collection
 
-Evaluation is only as good as the data it operates on. Octant's community allocators currently rely on:
-- Project self-reported proposals
-- Manual GitHub checks
-- Personal familiarity with teams
-- Community discussion sentiment (informal)
+Octant allocators currently evaluate projects using:
+- Self-reported proposals (the project tells you it's great)
+- Manual GitHub spot-checks (one repo at a time, no cross-project view)
+- Personal familiarity (who do you know on the team?)
+- Informal community sentiment (vibes-based analysis)
 
-None of this scales. None of it is systematic. And none of it creates a reusable dataset for future epochs.
+This produces four failures: it doesn't scale past 30 projects, it's not reproducible between epochs, it creates no reusable dataset, and it has zero provenance — you can't audit how a funding decision was made.
 
-OctantInsight's data collection layer solves this by building a **structured, reproducible dataset** from public sources — one that feeds directly into the analysis (Track 2) and mechanism design (Track 1) layers.
+OctantInsight replaces this with a **structured, reproducible collection pipeline** that feeds directly into analysis (Track 2) and mechanism design (Track 1).
 
 ---
 

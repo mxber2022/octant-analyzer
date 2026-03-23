@@ -20,9 +20,9 @@ Public goods evaluation is broken in three specific ways:
 
 ---
 
-## The Innovation: A Codified, Reusable Evaluation Mechanism
+## What We Built: A 4-Dimension Scoring Engine With Allocation Signals
 
-OctantInsight implements a concrete evaluation mechanism — not a theoretical framework, but a working system that produces actionable allocation signals from real data.
+Not a whitepaper. Not a theoretical framework. A working system that takes 10 projects, 2,377 ETH of allocation history, and live GitHub data — and outputs ranked evaluations with concrete increase/maintain/flag signals in 100 seconds.
 
 ### What's Built
 
